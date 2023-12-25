@@ -1,0 +1,184 @@
+body 
+{
+  font-family: "Helvetica Neue", sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.large
+{
+  color: white;
+  font-size: x-large;
+}
+  
+#timer-container 
+{
+  border: 2px ;
+  font-size: x-large;
+  padding: 20px;
+  height: 170px;
+  width: 290px;
+  border-radius: 5px;
+  background-color: black;
+}
+  
+#timer 
+{
+  font-size: 70px;
+  margin-bottom: 0px;
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+}
+  
+#buttonsOrange 
+{
+  font-family: "Helvetica Neue", sans-serif;
+  color: white;
+}
+  
+#buttonsOrange button 
+{
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: rgb(220, 144, 4);
+  color:  rgb(253, 211, 106);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  cursor: pointer;
+  }
+  
+#buttonsOrange button:hover 
+{
+  background-color: rgb(220, 144, 4);
+}
+button:hover 
+{
+  transform: scale(1.1);
+}
+
+#buttonsGray 
+{
+  font-family: "Helvetica Neue", sans-serif;
+  color: white;
+}
+
+#buttonsGray button 
+{
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: rgb(95, 97, 99);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+#buttonsGray button:hover 
+{
+  background-color:rgb(95, 97, 99);
+}
+button:hover
+{
+  transform: scale(1.1);
+}
+
+#buttonsGreen 
+{
+  font-family: "Helvetica Neue", sans-serif;
+  color: white;
+}
+
+#buttonsGreen button 
+{
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: rgb(9, 108, 29);
+  color: rgb(70, 182, 29);
+  padding: 10px 20px;
+  border: none;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+#buttonsGreen button:hover 
+{
+  background-color:  rgb(9, 108, 29);
+}
+button:hover 
+{
+  transform: scale(1.1);
+}
+
+#buttonsGreen,
+#buttonsOrange,
+#buttonsGray 
+{
+  flex-direction:row;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+#buttons 
+{
+  font-family: "Helvetica Neue", sans-serif;
+  
+}
+
+#buttons button 
+{
+  font-family: "Helvetica Neue", sans-serif;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+button:hover 
+{
+  transform: scale(1.1);
+}
+
+#buttons 
+{
+  font-family: "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+#buttons button 
+{
+  font-family: "Helvetica Neue", sans-serif;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#buttons button:hover 
+{
+  transform: scale(1.1);
+}
